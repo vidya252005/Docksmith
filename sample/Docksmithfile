@@ -1,0 +1,7 @@
+FROM alpine:3.18
+WORKDIR /app
+ENV APP_NAME=Docksmith
+ENV GREETING=Hello
+COPY app.py /app
+RUN echo "Build complete"
+CMD ["/bin/sh", "/app/app.py"]

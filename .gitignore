@@ -1,0 +1,7 @@
+/engine/__pycache__/
+*.py[cod]
+.venv/
+
+.docksmith/
+
+*.tar
